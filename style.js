@@ -11,6 +11,6 @@ const styles = StyleSheet.create({
         backgroundColor:'red',
     },
     headerText:{
-        color:'',
+        color:'green',
     }
   });
