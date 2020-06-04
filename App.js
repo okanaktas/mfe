@@ -5,13 +5,22 @@ const styles = require('./style.js');
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>MFE hoş geldiniz.. XD </Text>
+
 
       <View style={styles.header}>
-        
-      <Text style={styles.headerText}>jbjybjb</Text>
+
+        <Text style={styles.headerText}>MFE</Text>
+        <Text style={styles.middleText}>ANA SAYFA</Text>
 
       </View>
+
+
+
+
+
+
+
+
     </View>
   );
 }
