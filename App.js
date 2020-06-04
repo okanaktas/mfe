@@ -6,6 +6,12 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>MFE hoş geldiniz.. XD </Text>
+
+      <View style={styles.header}>
+        
+      <Text style={styles.headerText}>jbjybjb</Text>
+
+      </View>
     </View>
   );
 }

@@ -5,4 +5,10 @@ const styles = StyleSheet.create({
       alignItems: 'center',
       justifyContent: 'center',
     },
+    header:{
+        
+    },
+    headerText:{
+        color:'red',
+    }
   });
