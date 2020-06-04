@@ -10,11 +10,14 @@ export default function App() {
       <View style={styles.header}>
 
         <Text style={styles.leftText}>MFE</Text>
+
         <View style={styles.middleText}>
           <Text>ANA SAYFA</Text>
           <Text>HİZMETLER</Text>
           <Text>İLETİŞİM</Text>
         </View>
+
+        <Text style={styles.rightText}>LOGO</Text>
 
       </View>
 

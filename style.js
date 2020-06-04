@@ -21,19 +21,21 @@ const styles = StyleSheet.create({
     fontSize: 30,
     width: 20 + '%',
     alignItems: 'center',
+    textAlign: 'center',
 
   },
   middleText: {
     width: 60 + '%',
-    alignItems: 'center',
-    color:'white',
+    justifyContent: 'center',
+    flexDirection: 'row',
   },
 
- 
 
   rightText: {
-    width:20 +'%',
+    width: 20 + '%',
     alignItems: 'center',
+    color: 'white',
+    textAlign:'center',
   },
 
 
