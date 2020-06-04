@@ -10,8 +10,11 @@ export default function App() {
       <View style={styles.header}>
 
         <Text style={styles.leftText}>MFE</Text>
-        <Text style={styles.middleText}>ANA SAYFA</Text>
-        <Text style={styles.rightText}>ANA SAYFA</Text>
+        <View style={styles.middleText}>
+          <Text>ANA SAYFA</Text>
+          <Text>HİZMETLER</Text>
+          <Text>İLETİŞİM</Text>
+        </View>
 
       </View>
 
