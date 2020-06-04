@@ -1,19 +1,17 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import styles from './style';
 
 export default function App() {
   return (
     <View style={styles.container}>
+<<<<<<< HEAD
       <Text>MFE Başlangıç</Text>
+=======
+      <Text>Open up App.js to start working on your app! FIRAT</Text>
+>>>>>>> Fırat
     </View>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
