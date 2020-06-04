@@ -8,9 +8,9 @@ const styles = StyleSheet.create({
       justifyContent: 'center',
     },
     header:{
-        
+        backgroundColor:'red',
     },
     headerText:{
-        color:'red',
+        color:'',
     }
   });
