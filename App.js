@@ -5,7 +5,7 @@ import styles from './style';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>MFE</Text>
+      <Text>MFE hoş geldiniz.. </Text>
     </View>
   );
 }
