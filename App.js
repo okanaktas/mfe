@@ -9,8 +9,9 @@ export default function App() {
 
       <View style={styles.header}>
 
-        <Text style={styles.headerText}>MFE</Text>
+        <Text style={styles.leftText}>MFE</Text>
         <Text style={styles.middleText}>ANA SAYFA</Text>
+        <Text style={styles.rightText}>ANA SAYFA</Text>
 
       </View>
 

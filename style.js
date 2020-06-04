@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
         alignContent:'center',
         alignItems:'center',
     },
-    headerText:{
+    leftText:{
         color:'whitesmoke',
         marginLeft:25,
         marginRight:100,
@@ -24,6 +24,12 @@ const styles = StyleSheet.create({
     middleText:{
       color:'white',
     },
+
+    rightText:{
+
+    },
     
+
+
   });
 module.exports = styles;
