@@ -5,11 +5,19 @@ const style = require('./style.js');
 
 function app() {
   return (
-    <View style={style.header}>
-      <Text style={style.leftHEader}>Sol Taraftaki Header!</Text>
-      <Text style={style.middleHeader}>Orta Header</Text>
-      <Text style={style.rightHeader}>Sağ Taraftaki Header</Text>
+    <View>
+
+
+      {/* //header */}
+      <View style={style.header}>
+        <Text style={style.leftHeader}>Sol Taraftaki Header!</Text>
+        <Text style={style.middleHeader}>Orta Header</Text>
+        <Text style={style.rightHeader}>Sağ Taraftaki Header</Text>
+      </View>
+    
     </View>
+
+
   )
 }
 export default app;

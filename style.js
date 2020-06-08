@@ -7,13 +7,13 @@ const style = StyleSheet.create({
     header:{
       width:100+'%',
       height:80,
-      padding:20,
       alignItems:'center',
       flexDirection:'row',
       backgroundColor:'black',
+      justifyContent:'center',
     },
     leftHeader:{
-      color:'purple',
+      color:'yellow',
         },
     middleHeader:{
       color:'red',
