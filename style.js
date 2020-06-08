@@ -7,6 +7,7 @@ const style = StyleSheet.create({
     header:{
       marginTop:50,
       alignItems:'center',
+      flexDirection:row,
     },
     leftHeader:{
       marginLeft:10,
