@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text, View, StyleSheet } from 'react-native';
-const styles = require('./style.js');
+const style = require('./style.js');
 
 
 function app() {
