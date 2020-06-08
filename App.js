@@ -10,9 +10,15 @@ function app() {
 
       {/* //header */}
       <View style={style.header}>
-        <Text style={style.leftHeader}>Sol Taraftaki Header!</Text>
-        <Text style={style.middleHeader}>Orta Header</Text>
-        <Text style={style.rightHeader}>Sağ Taraftaki Header</Text>
+        <Text style={style.leftHeader}>MFE</Text>
+
+        <View style={style.middleHeader}>
+          <Text style={style.middleHeaderText}>Ana Sayfa</Text>
+          <Text style={style.middleHeaderText}>Hakkımızda</Text>
+          <Text style={style.middleHeaderText}>İletişim</Text>
+        </View>
+
+        <Text style={style.rightHeader}>Profil Girişi</Text>
       </View>
 
 
