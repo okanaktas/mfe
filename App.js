@@ -18,6 +18,7 @@ function app() {
 
       <View style={style.index}>
 
+      <View><Text>Burası index sayfasındaki orta alandır</Text></View>
       </View>
 
 
