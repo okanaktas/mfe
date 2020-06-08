@@ -14,7 +14,15 @@ function app() {
         <Text style={style.middleHeader}>Orta Header</Text>
         <Text style={style.rightHeader}>Sağ Taraftaki Header</Text>
       </View>
-    
+
+
+      <View style={style.index}>
+
+      </View>
+
+
+
+
     </View>
 
 

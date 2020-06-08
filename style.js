@@ -4,23 +4,30 @@ import Constants from 'expo-constants';
 
 
 const style = StyleSheet.create({
-    header:{
-      width:100+'%',
-      height:80,
-      alignItems:'center',
-      flexDirection:'row',
-      backgroundColor:'black',
-      justifyContent:'center',
-    },
-    leftHeader:{
-      color:'yellow',
-        },
-    middleHeader:{
-      color:'red',
-    },
-    rightHeader:{
-      color:'green',
-        },
-  })
-  
+
+  //header
+
+  header: {
+    width: 100 + '%',
+    height: 80,
+    alignItems: 'center',
+    flexDirection: 'row',
+    backgroundColor: 'black',
+    justifyContent: 'center',
+  },
+  leftHeader: {
+    color: 'yellow',
+  },
+  middleHeader: {
+    color: 'red',
+  },
+  rightHeader: {
+    color: 'green',
+  },
+
+  //index
+
+
+})
+
 module.exports = style;
