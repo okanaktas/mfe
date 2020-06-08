@@ -5,21 +5,22 @@ import Constants from 'expo-constants';
 
 const style = StyleSheet.create({
     header:{
-      marginTop:50,
+      width:100+'%',
+      height:80,
+      padding:20,
       alignItems:'center',
       flexDirection:'row',
       backgroundColor:'black',
     },
     leftHeader:{
-      marginLeft:10,
-    },
+      color:'purple',
+        },
     middleHeader:{
-      padding:10,
       color:'red',
     },
     rightHeader:{
-      marginRight:10,
-    },
+      color:'green',
+        },
   })
   
 module.exports = style;
