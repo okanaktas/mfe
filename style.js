@@ -23,6 +23,7 @@ const style = StyleSheet.create({
     textAlign:'center',
   },
   middleHeader: {
+    flexDirection:'row',
     width: 60 + '%',
     textAlign:'center',
   },
