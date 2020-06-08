@@ -10,19 +10,32 @@ const style = StyleSheet.create({
   header: {
     width: 100 + '%',
     height: 80,
+    paddingTop:Constants.statusBarHeight,
     alignItems: 'center',
     flexDirection: 'row',
     backgroundColor: 'black',
-    justifyContent: 'center',
+    alignContent:'center',
   },
   leftHeader: {
-    color: 'yellow',
+    color: 'whitesmoke',
+    fontSize: 30,
+    width: 20 + '%',
+    textAlign:'center',
   },
   middleHeader: {
-    color: 'red',
+    flexDirection:'row',
+    width: 60 + '%',
+    textAlign:'center',
   },
+  middleHeaderText: {
+    color: 'red',
+    marginLeft:10,
+    marginRight:10,
+    },
   rightHeader: {
     color: 'green',
+    width: 20+'%',
+    textAlign:'center',
   },
 
   //index
