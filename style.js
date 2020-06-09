@@ -29,8 +29,8 @@ const style = StyleSheet.create({
   },
   middleHeaderText: {
     color: 'red',
-    marginLeft:10,
-    marginRight:10,
+    marginLeft:5,
+    marginRight:5,
     },
   rightHeader: {
     color: 'green',
