@@ -40,6 +40,24 @@ const style = StyleSheet.create({
 
   //index
 
+  orta:{
+    alignItems:'center',
+    justifyContent:'center',
+  },
+  menuSatir:{
+    width:100+'%',
+    height:180,
+    flexDirection:'row'
+  },
+  resimComponent:{
+    height:150,
+    width:150,
+    marginRight:20
+  },
+  resimComponentResim:
+  {
+    borderRadius: 15
+  }
 
 })
 
