@@ -43,16 +43,24 @@ const style = StyleSheet.create({
   orta:{
     alignItems:'center',
     justifyContent:'center',
+    width:100 +'%',
+    alignItems:'center'
+    
   },
   menuSatir:{
     width:100+'%',
     height:180,
-    flexDirection:'row'
+    flexDirection:'row',
+    alignItems:'center',
+    
+ 
+    alignContent:'center'
   },
   resimComponent:{
     height:150,
     width:150,
-    marginRight:20
+    marginRight:20,
+    backgroundColor:'red',
   },
   resimComponentResim:
   {

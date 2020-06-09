@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, View, StyleSheet, ImageBackground } from 'react-native';
+import { Text, View, StyleSheet, ImageBackground,ScrollView } from 'react-native';
 const style = require('./style.js');
 
 
@@ -22,7 +22,7 @@ function app() {
       </View>
 
 
-      <View style={style.index}>
+      <ScrollView style={style.index}>
 
         <View style={style.orta}>
 
@@ -47,7 +47,7 @@ function app() {
 
 
         </View>
-      </View>
+      </ScrollView>
 
 
 
