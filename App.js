@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, View, StyleSheet, ImageBackground,ScrollView } from 'react-native';
+import { Text, View, StyleSheet, ImageBackground, ScrollView } from 'react-native';
 
 const style = require('./style.js');
 
@@ -10,6 +10,8 @@ function app() {
 
 
       {/* //header */}
+
+
       <View style={style.header}>
         <Text style={style.leftHeader}>MFE</Text>
 
@@ -21,6 +23,8 @@ function app() {
 
         <Text style={style.rightHeader}>Profil Girişi</Text>
       </View>
+
+      {/* //index */}
 
 
       <ScrollView style={style.index}>
@@ -51,6 +55,15 @@ function app() {
       </ScrollView>
 
 
+
+
+      <View>
+
+        {/* //footer */}
+
+
+
+      </View>
 
 
     </View>

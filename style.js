@@ -23,20 +23,24 @@ const style = StyleSheet.create({
     textAlign: 'center',
   },
   middleHeader: {
-    flexDirection: 'row',
     width: 60 + '%',
+    flexDirection:'row',
     textAlign: 'center',
+    justifyContent:'center',
   },
   middleHeaderText: {
+    textAlign:'center',
+    alignItems:'center',
     color: 'red',
     marginLeft: 5,
     marginRight: 5,
   },
   rightHeader: {
-    fontSize: 20,
+    fontSize: 15,
     color: 'green',
     width: 20 + '%',
     textAlign: 'center',
+
   },
 
   //index
