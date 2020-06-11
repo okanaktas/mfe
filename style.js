@@ -10,57 +10,57 @@ const style = StyleSheet.create({
   header: {
     width: 100 + '%',
     height: 80,
-    paddingTop:Constants.statusBarHeight,
+    paddingTop: Constants.statusBarHeight,
     alignItems: 'center',
     flexDirection: 'row',
     backgroundColor: 'black',
-    alignContent:'center',
+    alignContent: 'center',
   },
   leftHeader: {
     color: 'whitesmoke',
     fontSize: 30,
     width: 20 + '%',
-    textAlign:'center',
+    textAlign: 'center',
   },
   middleHeader: {
-    flexDirection:'row',
+    flexDirection: 'row',
     width: 60 + '%',
-    textAlign:'center',
+    textAlign: 'center',
   },
   middleHeaderText: {
     color: 'red',
-    marginLeft:5,
-    marginRight:5,
-    },
+    marginLeft: 5,
+    marginRight: 5,
+  },
   rightHeader: {
     color: 'green',
-    width: 20+'%',
-    textAlign:'center',
+    width: 20 + '%',
+    textAlign: 'center',
   },
 
   //index
 
-  orta:{
-    alignItems:'center',
-    justifyContent:'center',
-    width:100 +'%',
-    alignItems:'center'
-    
+  orta: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: 100 + '%',
+    alignItems: 'center'
+
   },
-  menuSatir:{
-    width:100+'%',
-    height:180,
-    flexDirection:'row',
-    alignItems:'center',
-    
- 
-    alignContent:'center'
+  menuSatir: {
+    width: 100 + '%',
+    height: 180,
+    flexDirection: 'row',
+    alignItems: 'center',
+
+
+    alignContent: 'center'
   },
-  resimComponent:{
-    height:150,
-    width:150,
-    marginRight:20,
-    backgroundColor:'red',
+  resimComponent: {
+    height: 150,
+    width: 150,
+    marginRight: 20,
+    backgroundColor: 'red',
   },
   resimComponentResim:
   {

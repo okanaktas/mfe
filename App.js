@@ -1,10 +1,6 @@
 import React from 'react';
-<<<<<<< HEAD
-import { Text, View, StyleSheet } from 'react-native';
-
-=======
 import { Text, View, StyleSheet, ImageBackground,ScrollView } from 'react-native';
->>>>>>> FIRAT
+
 const style = require('./style.js');
 
 
