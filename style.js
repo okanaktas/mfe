@@ -84,6 +84,12 @@ const style = StyleSheet.create({
     fontSize:16,
     marginTop:5
   },
+  imageThumbnail: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: 100,
+    borderRadius:10,borderWidth:2,borderColor:'#0e0e0e',
+  }
 
 })
 

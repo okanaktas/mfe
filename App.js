@@ -1,11 +1,10 @@
 import React from 'react';
-import { Text, View, StyleSheet, Image, ScrollView } from 'react-native';
+import { Text, View, StyleSheet, Image, ScrollView, TouchableOpacity, FlatList } from 'react-native';
 import { Icon } from 'react-native-elements';
-
 const style = require('./style.js');
 
-
 function app() {
+
   return (
     <View>
 
@@ -14,7 +13,7 @@ function app() {
 
 
       <View style={style.header}>
-        
+
         <Text style={style.leftHeader}>MFE</Text>
 
         <View style={style.middleHeader}>
@@ -25,8 +24,8 @@ function app() {
 
         <View style={style.rightHeader}>
 
-        <Icon name='person' color='white' />
-        
+          <Icon name='person' color='white' />
+
         </View>
       </View>
 
@@ -35,40 +34,73 @@ function app() {
 
       <ScrollView style={style.index}>
 
-        <View style={style.orta}>
 
+
+
+        <View style={style.orta}>
+         
           <View style={style.menuSatir}>
 
             <View>
-               <Image style={style.resimComponentSol} source={{ uri: 'https://www.resourcesforlife.com/wp/wp-content/uploads/2016/10/20161007fr2003-colorfest-photos-people-running-event-008-1080x675.jpg' }} />
-              <Text style={style.kategoriText}>Etkinlikler</Text>
+              <TouchableOpacity>
+                <Image style={style.resimComponentSol} source={{ uri: 'https://www.resourcesforlife.com/wp/wp-content/uploads/2016/10/20161007fr2003-colorfest-photos-people-running-event-008-1080x675.jpg' }} />
+                <Text style={style.kategoriText}>Etkinlikler</Text>
+              </TouchableOpacity>
 
             </View>
             <View>
-               <Image style={style.resimComponentSol} source={{ uri: 'https://www.resourcesforlife.com/wp/wp-content/uploads/2016/10/20161007fr2003-colorfest-photos-people-running-event-008-1080x675.jpg' }} />
-              <Text style={style.kategoriText}>Etkinlikler</Text>
-
+              <TouchableOpacity>
+                <Image style={style.resimComponentSol} source={{ uri: 'https://static.standard.co.uk/s3fs-public/thumbnails/image/2019/03/07/11/e1-london-0703.jpeg' }} />
+                <Text style={style.kategoriText}>Clublar</Text>
+              </TouchableOpacity>
             </View>
           </View>
 
 
           <View style={style.menuSatir}>
 
-           
-          <View>
-               <Image style={style.resimComponentSol} source={{ uri: 'https://www.resourcesforlife.com/wp/wp-content/uploads/2016/10/20161007fr2003-colorfest-photos-people-running-event-008-1080x675.jpg' }} />
-              <Text style={style.kategoriText}>Etkinlikler</Text>
+
+            <View>
+              <TouchableOpacity>
+                <Image style={style.resimComponentSol} source={{ uri: 'https://www.casino.org/blog/wp-content/uploads/roulette-wheel.jpg' }} />
+                <Text style={style.kategoriText}>Casinolar</Text>
+              </TouchableOpacity>
 
             </View>
             <View>
-               <Image style={style.resimComponentSol} source={{ uri: 'https://www.resourcesforlife.com/wp/wp-content/uploads/2016/10/20161007fr2003-colorfest-photos-people-running-event-008-1080x675.jpg' }} />
-              <Text style={style.kategoriText}>Etkinlikler</Text>
+              <TouchableOpacity>
+                <Image style={style.resimComponentSol} source={{ uri: 'https://thumbnails.trvl-media.com/-9pqVtuC38z_uaSiL1Zql6z3nX4=/340x150/smart/filters:no_upscale():quality(60)/images.trvl-media.com/hotels/1000000/150000/140600/140596/b4cfa95d_y.jpg' }} />
+                <Text style={style.kategoriText}>Hoteller</Text>
+              </TouchableOpacity>
+            </View>
+
+          </View>
+
+
+          <View style={style.menuSatir}>
+
+
+            <View>
+              <TouchableOpacity>
+                <Image style={style.resimComponentSol} source={{ uri: 'https://www.annabelle.com.cy/Templates/00005/data/Gallery/restaurants/annabelle-amorosa-restaurant-1900x1200.jpg' }} />
+                <Text style={style.kategoriText}>Restaurantlar</Text>
+              </TouchableOpacity>
 
             </View>
+            <View>
+              <TouchableOpacity>
+                <Image style={style.resimComponentSol} source={{ uri: 'https://dormitories.emu.edu.tr/PhotoGalleries/dormitories/popart/DOUBLE%20SUIT%20ROOM%201.jpg?RenditionID=7' }} />
+                <Text style={style.kategoriText}>Yurtlar</Text>
+              </TouchableOpacity>
+            </View>
+
           </View>
 
 
         </View>
+
+
+
       </ScrollView>
 
 
@@ -83,7 +115,7 @@ function app() {
       </View>
 
 
-    </View>
+    </View >
 
 
   )
