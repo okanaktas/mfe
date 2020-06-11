@@ -1,5 +1,5 @@
 
-import { StyleSheet, Text, View, NativeModules, StatusBar } from 'react-native';
+import { StyleSheet, Text, View, NativeModules, StatusBar,Dimensions } from 'react-native';
 import Constants from 'expo-constants';
 
 
@@ -44,10 +44,11 @@ const style = StyleSheet.create({
   //index
 
   orta:{
-    alignItems:'center',
-    justifyContent:'center',
+
     width:100 +'%',
-    alignItems:'center',
+  
+    backgroundColor:'#121212',
+    height:Dimensions.get('window').height - Constants.statusBarHeight,
 
     
   },
@@ -55,23 +56,34 @@ const style = StyleSheet.create({
     width:100+'%',
     height:180,
     flexDirection:'row',
-    backgroundColor:'red',
     
     alignItems:'center',
     justifyContent:'center',
-    
+    marginTop:15,
  
     alignContent:'center'
   },
-  resimComponent:{
+  resimComponentSag:{
     height:150,
     width:150,
-    marginRight:20,
+    marginLeft:10,
+    alignItems:'flex-end',
+    borderRadius:15,
   },
-  resimComponentResim:
-  {
-    borderRadius: 15
-  }
+  resimComponentSol:{
+    height:150,
+    width:150,
+    marginRight:10,
+    justifyContent:'flex-end',
+    borderRadius:15,
+  },
+ 
+  kategoriText:{
+    color:'#FFF',
+    textAlign:'center',
+    fontSize:16,
+    marginTop:5
+  },
 
 })
 

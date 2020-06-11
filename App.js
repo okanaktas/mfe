@@ -39,21 +39,32 @@ function app() {
 
           <View style={style.menuSatir}>
 
-            <ImageBackground style={style.resimComponent} imageStyle={style.resimComponentResim} source={{ uri: 'https://www.resourcesforlife.com/wp/wp-content/uploads/2016/10/20161007fr2003-colorfest-photos-people-running-event-008-1080x675.jpg' }}>
-            </ImageBackground>
+            <View>
+               <Image style={style.resimComponentSol} source={{ uri: 'https://www.resourcesforlife.com/wp/wp-content/uploads/2016/10/20161007fr2003-colorfest-photos-people-running-event-008-1080x675.jpg' }} />
+              <Text style={style.kategoriText}>Etkinlikler</Text>
 
-            <ImageBackground style={style.resimComponent} imageStyle={style.resimComponentResim} source={{ uri: 'https://www.resourcesforlife.com/wp/wp-content/uploads/2016/10/20161007fr2003-colorfest-photos-people-running-event-008-1080x675.jpg' }}>
-            </ImageBackground>
+            </View>
+            <View>
+               <Image style={style.resimComponentSol} source={{ uri: 'https://www.resourcesforlife.com/wp/wp-content/uploads/2016/10/20161007fr2003-colorfest-photos-people-running-event-008-1080x675.jpg' }} />
+              <Text style={style.kategoriText}>Etkinlikler</Text>
+
+            </View>
           </View>
 
 
           <View style={style.menuSatir}>
 
-            <ImageBackground style={style.resimComponent} imageStyle={style.resimComponentResim} source={{ uri: 'https://www.resourcesforlife.com/wp/wp-content/uploads/2016/10/20161007fr2003-colorfest-photos-people-running-event-008-1080x675.jpg' }}>
-            </ImageBackground>
+           
+          <View>
+               <Image style={style.resimComponentSol} source={{ uri: 'https://www.resourcesforlife.com/wp/wp-content/uploads/2016/10/20161007fr2003-colorfest-photos-people-running-event-008-1080x675.jpg' }} />
+              <Text style={style.kategoriText}>Etkinlikler</Text>
 
-            <ImageBackground style={style.resimComponent} imageStyle={style.resimComponentResim} source={{ uri: 'https://www.resourcesforlife.com/wp/wp-content/uploads/2016/10/20161007fr2003-colorfest-photos-people-running-event-008-1080x675.jpg' }}>
-            </ImageBackground>
+            </View>
+            <View>
+               <Image style={style.resimComponentSol} source={{ uri: 'https://www.resourcesforlife.com/wp/wp-content/uploads/2016/10/20161007fr2003-colorfest-photos-people-running-event-008-1080x675.jpg' }} />
+              <Text style={style.kategoriText}>Etkinlikler</Text>
+
+            </View>
           </View>
 
 
