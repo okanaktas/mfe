@@ -31,7 +31,7 @@ const style = StyleSheet.create({
   middleHeaderText: {
     textAlign:'center',
     alignItems:'center',
-    color: 'red',
+    color: 'white',
     marginLeft: 5,
     marginRight: 5,
   },
