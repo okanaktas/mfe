@@ -1,5 +1,5 @@
 
-import { StyleSheet, Text, View, NativeModules, StatusBar,Dimensions } from 'react-native';
+import { StyleSheet, Text, View, NativeModules, Image,StatusBar,Dimensions } from 'react-native';
 import Constants from 'expo-constants';
 
 

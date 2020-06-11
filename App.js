@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, View, StyleSheet, ImageBackground, ScrollView } from 'react-native';
+import { Text, View, StyleSheet, Image, ScrollView } from 'react-native';
 import { Icon } from 'react-native-elements';
 
 const style = require('./style.js');
