@@ -44,14 +44,18 @@ const style = StyleSheet.create({
     alignItems:'center',
     justifyContent:'center',
     width:100 +'%',
-    alignItems:'center'
+    alignItems:'center',
+
     
   },
   menuSatir:{
     width:100+'%',
     height:180,
     flexDirection:'row',
+    backgroundColor:'red',
+    
     alignItems:'center',
+    justifyContent:'center',
     
  
     alignContent:'center'
@@ -60,7 +64,6 @@ const style = StyleSheet.create({
     height:150,
     width:150,
     marginRight:20,
-    backgroundColor:'red',
   },
   resimComponentResim:
   {
