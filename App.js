@@ -1,6 +1,10 @@
 import React from 'react';
+<<<<<<< HEAD
 import { Text, View, StyleSheet } from 'react-native';
 
+=======
+import { Text, View, StyleSheet, ImageBackground,ScrollView } from 'react-native';
+>>>>>>> FIRAT
 const style = require('./style.js');
 
 
@@ -23,10 +27,32 @@ function app() {
       </View>
 
 
-      <View style={style.index}>
+      <ScrollView style={style.index}>
 
-      <View><Text>Burası orta sayfasındaki orta alandır</Text></View>
-      </View>
+        <View style={style.orta}>
+
+          <View style={style.menuSatir}>
+
+            <ImageBackground style={style.resimComponent} imageStyle={style.resimComponentResim} source={{ uri: 'https://www.resourcesforlife.com/wp/wp-content/uploads/2016/10/20161007fr2003-colorfest-photos-people-running-event-008-1080x675.jpg' }}>
+            </ImageBackground>
+
+            <ImageBackground style={style.resimComponent} imageStyle={style.resimComponentResim} source={{ uri: 'https://www.resourcesforlife.com/wp/wp-content/uploads/2016/10/20161007fr2003-colorfest-photos-people-running-event-008-1080x675.jpg' }}>
+            </ImageBackground>
+          </View>
+
+
+          <View style={style.menuSatir}>
+
+            <ImageBackground style={style.resimComponent} imageStyle={style.resimComponentResim} source={{ uri: 'https://www.resourcesforlife.com/wp/wp-content/uploads/2016/10/20161007fr2003-colorfest-photos-people-running-event-008-1080x675.jpg' }}>
+            </ImageBackground>
+
+            <ImageBackground style={style.resimComponent} imageStyle={style.resimComponentResim} source={{ uri: 'https://www.resourcesforlife.com/wp/wp-content/uploads/2016/10/20161007fr2003-colorfest-photos-people-running-event-008-1080x675.jpg' }}>
+            </ImageBackground>
+          </View>
+
+
+        </View>
+      </ScrollView>
 
 
 

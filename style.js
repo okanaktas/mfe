@@ -40,6 +40,32 @@ const style = StyleSheet.create({
 
   //index
 
+  orta:{
+    alignItems:'center',
+    justifyContent:'center',
+    width:100 +'%',
+    alignItems:'center'
+    
+  },
+  menuSatir:{
+    width:100+'%',
+    height:180,
+    flexDirection:'row',
+    alignItems:'center',
+    
+ 
+    alignContent:'center'
+  },
+  resimComponent:{
+    height:150,
+    width:150,
+    marginRight:20,
+    backgroundColor:'red',
+  },
+  resimComponentResim:
+  {
+    borderRadius: 15
+  }
 
 })
 
