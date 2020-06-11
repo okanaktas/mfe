@@ -33,6 +33,7 @@ const style = StyleSheet.create({
     marginRight: 5,
   },
   rightHeader: {
+    fontSize: 20,
     color: 'green',
     width: 20 + '%',
     textAlign: 'center',
