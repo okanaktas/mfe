@@ -1,6 +1,7 @@
 import React from 'react';
 import { Text, View, StyleSheet, Image, ScrollView, TouchableOpacity, FlatList } from 'react-native';
 import { Icon } from 'react-native-elements';
+import TextTicker from 'react-native-text-ticker'
 const style = require('./style.js');
 
 function app() {
@@ -31,7 +32,23 @@ function app() {
 
       {/* //index */}
 
-
+<View style={{backgroundColor:'#333',paddingTop:5,paddingBottom:5}}>
+      <View style={{borderBottomColor:'gray',borderBottomWidth:1,marginLeft:20,marginRight:20,opacity:0.3,}}></View>
+   <View style={{marginLeft:20,flexDirection:'row',}}>
+    <Text onPress={()=>this.props.props2.navigation.navigate('Etkinlik')} style={{color:'#EBEBEB',marginRight:5,textAlign:'center',alignItems:'center',fontSize:12}}>YAKLAŞAN{"\n"}ETKINLIKLER</Text>
+   <TextTicker
+        style={{ color:'#EBEBEB',marginTop:6}}
+        scrollSpeed={100}
+        bounce={false}
+        animationType='scroll'
+        loop
+        repeatSpacer={50}
+        marqueeDelay={1000}
+      >HADISE KONSERI / GIRNE Hotel - LIMAK HOTEL BUGÜN CEM YILMAZ İLE ŞENLENİYOR - CAGE CLUB SON PARTİSİ OLAN DJ HERO İLE DEVAM ETMEKTE
+      </TextTicker>
+     
+   </View>
+   </View>
       <ScrollView style={style.index}>
 
 

@@ -48,7 +48,7 @@ const style = StyleSheet.create({
     width:100 +'%',
   
     backgroundColor:'#121212',
-    height:Dimensions.get('window').height - Constants.statusBarHeight,
+    //height:Dimensions.get('window').height - Constants.statusBarHeight,
 
     
   },
