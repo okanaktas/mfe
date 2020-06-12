@@ -43,18 +43,22 @@ const style = StyleSheet.create({
 
   //index
 
+  index:{
+    backgroundColor:'#121212',
+    
+  },
   orta:{
 
     width:100 +'%',
   
-    backgroundColor:'#121212',
-    //height:Dimensions.get('window').height - Constants.statusBarHeight,
+ 
+   height:Dimensions.get('window').height - Constants.statusBarHeight,
 
     
   },
   menuSatir:{
     width:100+'%',
-    height:180,
+    marginBottom:10,
     flexDirection:'row',
     
     alignItems:'center',
@@ -64,20 +68,23 @@ const style = StyleSheet.create({
     alignContent:'center'
   },
   resimComponentSag:{
-    height:150,
-    width:150,
+  
+    height:100,
     marginLeft:10,
     alignItems:'flex-end',
     borderRadius:15,
   },
   resimComponentSol:{
-    height:150,
-    width:150,
+   
+   height:100,
     marginRight:10,
     justifyContent:'flex-end',
     borderRadius:15,
   },
- 
+ resimContainer:{
+width:40 +'%',
+marginRight:5,
+ },
   kategoriText:{
     color:'#FFF',
     textAlign:'center',
