@@ -28,7 +28,7 @@ function app() {
 <Icon
   name='person'
   color='white'
-  onPress={() => {alert('Deneme');}}
+  onPress={() => {alert('Ses Deneme');}}
   />
 
         </View>
