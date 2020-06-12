@@ -1,7 +1,8 @@
 import React from 'react';
 import { Text,Button, View, StyleSheet, Image, ScrollView, TouchableOpacity, FlatList } from 'react-native';
 import { Icon } from 'react-native-elements';
-import TextTicker from 'react-native-text-ticker'
+import TextTicker from 'react-native-text-ticker';
+import { Divider } from 'react-native-elements';
 const style = require('./style.js');
 
 function app() {
@@ -132,7 +133,9 @@ function app() {
 
         {/* //footer */}
 
+        <View style={style.divider}></View>
 
+        {/* <Divider style={style.divider} /> */}
 
       </View>
 
