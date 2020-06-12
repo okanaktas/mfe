@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, View, StyleSheet, Image, ScrollView, TouchableOpacity, FlatList } from 'react-native';
+import { Text,Button, View, StyleSheet, Image, ScrollView, TouchableOpacity, FlatList } from 'react-native';
 import { Icon } from 'react-native-elements';
 const style = require('./style.js');
 
@@ -24,7 +24,12 @@ function app() {
 
         <View style={style.rightHeader}>
 
-          <Icon name='person' color='white' />
+
+<Icon
+  name='person'
+  color='white'
+  onPress={() => {alert('Deneme');}}
+  />
 
         </View>
       </View>
