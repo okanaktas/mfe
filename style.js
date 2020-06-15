@@ -41,6 +41,25 @@ const style = StyleSheet.create({
 
   },
 
+  //bottomHeader
+
+  bottomHeader: {
+    width: 100 + '%',
+    height: 40,
+    backgroundColor: '#0f0f0f',
+    borderBottomLeftRadius: 70,
+    borderBottomRightRadius: 70,
+    justifyContent: 'center',
+    alignItems: 'center',
+    flexDirection: 'row',
+
+  },
+
+  bottomHeaderText: {
+    color: 'white',
+    marginLeft: 5,
+  },
+
   //index
 
   index: {

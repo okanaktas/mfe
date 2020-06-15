@@ -1,8 +1,7 @@
 import React from 'react';
-import { Text,Button, View, StyleSheet, Image, ScrollView, TouchableOpacity, FlatList } from 'react-native';
-import { Icon } from 'react-native-elements';
+import { Text, Button, View, StyleSheet, Image, ScrollView, TouchableOpacity, FlatList } from 'react-native';
+import { Icon, Divider } from 'react-native-elements';
 import TextTicker from 'react-native-text-ticker';
-import { Divider } from 'react-native-elements';
 const style = require('./style.js');
 
 function app() {
@@ -20,44 +19,56 @@ function app() {
 
         <View style={style.middleHeader}>
           <Text style={style.middleHeaderText}>Ana Sayfa</Text>
+          <Text style={style.middleHeaderText}>Etkinlikler</Text>
           <Text style={style.middleHeaderText}>Hakkımızda</Text>
-          <Text style={style.middleHeaderText}>İletişim</Text>
         </View>
 
         <View style={style.rightHeader}>
 
 
-<Icon
-  name='person'
-  color='white'
-  onPress={() => {alert('Ses Deneme');}}
-  />
+          <Icon
+            name='person'
+            color='white'
+            onPress={() => { alert('Alo Canım'); }}
+          />
 
         </View>
+      </View>
+
+      {/* Bottom Header */}
+
+      <View style={style.bottomHeader}>
+
+<Text style={style.bottomHeaderText}>Kültür ve Sanat</Text>
+<Text style={style.bottomHeaderText}>Film ve Müzik</Text>
+<Text style={style.bottomHeaderText}>Tiyatro</Text>
+<Text style={style.bottomHeaderText}>Seyahat</Text>
+<Text style={style.bottomHeaderText}>Güncel</Text>
+
       </View>
 
       {/* //index */}
 
       <ScrollView style={style.index}>
 
-      <View style={{ paddingTop: 10, paddingBottom: 5 }}>
-            <View style={{ borderBottomColor: 'gray', borderBottomWidth: 1, marginLeft: 20, marginRight: 20, opacity: 0.3 }}></View>
-            <View style={{ marginLeft: 20, flexDirection: 'row' }}>
-              <Text onPress={() => this.props.props2.navigation.navigate('Etkinlik')} style={{ color: '#EBEBEB', marginRight: 5, textAlign: 'center', alignItems: 'center', fontSize: 12 }}>YAKLAŞAN{"\n"}ETKINLIKLER</Text>
-              <TextTicker
-                style={{ color: '#EBEBEB', marginTop: 10, marginBottom: 10 }}
-                scrollSpeed={100}
-                bounce={false}
-                animationType='scroll'
-                loop
-                repeatSpacer={50}
-                marqueeDelay={1000}
-              >HADISE KONSERI / GIRNE Hotel - LIMAK HOTEL BUGÜN CEM YILMAZ İLE ŞENLENİYOR - CAGE CLUB SON PARTİSİ OLAN DJ HERO İLE DEVAM ETMEKTE
+        <View style={{ paddingTop: 10, paddingBottom: 5 }}>
+          <View style={{ borderBottomColor: 'gray', borderBottomWidth: 1, marginLeft: 20, marginRight: 20, opacity: 0.3 }}></View>
+          <View style={{ marginLeft: 20, flexDirection: 'row' }}>
+            <Text onPress={() => this.props.props2.navigation.navigate('Etkinlik')} style={{ color: '#EBEBEB', marginRight: 5, textAlign: 'center', alignItems: 'center', fontSize: 12 }}>YAKLAŞAN{"\n"}ETKINLIKLER</Text>
+            <TextTicker
+              style={{ color: '#EBEBEB', marginTop: 10, marginBottom: 10 }}
+              scrollSpeed={100}
+              bounce={false}
+              animationType='scroll'
+              loop
+              repeatSpacer={50}
+              marqueeDelay={1000}
+            >HADISE KONSERI / GIRNE Hotel - LIMAK HOTEL BUGÜN CEM YILMAZ İLE ŞENLENİYOR - CAGE CLUB SON PARTİSİ OLAN DJ HERO İLE DEVAM ETMEKTE
       </TextTicker>
 
-            </View>
-            <View style={{ borderBottomColor: 'gray', borderBottomWidth: 1, marginLeft: 20, marginRight: 20, opacity: 0.3, }}></View>
           </View>
+          <View style={{ borderBottomColor: 'gray', borderBottomWidth: 1, marginLeft: 20, marginRight: 20, opacity: 0.3, }}></View>
+        </View>
 
 
 
@@ -83,7 +94,7 @@ function app() {
           <View style={style.menuSatir}>
 
 
-          <View style={style.resimContainer}>
+            <View style={style.resimContainer}>
               <TouchableOpacity>
                 <Image style={style.resimComponentSol} source={{ uri: 'https://www.casino.org/blog/wp-content/uploads/roulette-wheel.jpg' }} />
                 <Text style={style.kategoriText}>Casinolar</Text>
@@ -103,7 +114,7 @@ function app() {
           <View style={style.menuSatir}>
 
 
-          <View style={style.resimContainer}>
+            <View style={style.resimContainer}>
               <TouchableOpacity>
                 <Image style={style.resimComponentSol} source={{ uri: 'https://www.annabelle.com.cy/Templates/00005/data/Gallery/restaurants/annabelle-amorosa-restaurant-1900x1200.jpg' }} />
                 <Text style={style.kategoriText}>Restaurantlar</Text>
