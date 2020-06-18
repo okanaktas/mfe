@@ -98,13 +98,16 @@ marginRight:5,
     borderRadius:10,borderWidth:2,borderColor:'#0e0e0e',
   },
   Hikayeler:{
-    height:80,
+    height:90,
     justifyContent:'center',
+    width:100 + '%',
+    alignSelf:'center',
+    marginLeft:10,
   },
   Hikaye:{
-    height:80 + '%',
-    width:80,
-    backgroundColor:'red',
+    height:100 + '%',
+    width:70,
+    marginTop:2,
     justifyContent:'center',
     alignItems:'center',
     
@@ -115,9 +118,15 @@ marginRight:5,
     marginTop:6,
   },
   hikeyeThumbResim:{
-    height:60,
-    width:60,
-    borderRadius:50/2,
+    height:55,
+    width:55,
+    borderRadius:55/2,
+    borderWidth:2,
+    borderColor:'red',
+  },
+  HikayeModal:{
+
+    backgroundColor:'#000',
   },
 
 })

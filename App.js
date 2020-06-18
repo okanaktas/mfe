@@ -1,7 +1,8 @@
 import React from 'react';
 import { Text, View, StyleSheet, Image, ScrollView, TouchableOpacity, FlatList } from 'react-native';
 import { Icon } from 'react-native-elements';
-import TextTicker from 'react-native-text-ticker'
+import TextTicker from 'react-native-text-ticker';
+import Stories from './assets/stories';
 const style = require('./style.js');
 
 function app() {
@@ -34,19 +35,8 @@ function app() {
 
       <ScrollView style={style.index}>
 
-        <View style={style.Hikayeler}>
-
-        <ScrollView horizontal={true}>
-
-          <View style={style.Hikaye}>
-          <Image  style={style.hikeyeThumbResim} source={{uri:'https://www.kibrisotelleri.com/photos/salamis-bay-conti-hotel-7.jpg'}}/>
-          <Text style={style.HikayeSubText}>Salamis Hotel</Text>
-          </View>
-
-        </ScrollView>
-      
-        </View>
-
+        {/* Hikayeler */}
+        <Stories/>
 
 
 
