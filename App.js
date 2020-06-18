@@ -144,9 +144,11 @@ function app() {
 
         {/* //footer */}
 
-        <View style={style.divider}></View>
+        <View style={style.footer}></View>
 
-        {/* <Divider style={style.divider} /> */}
+        <Divider style={style.footerDivider} />
+
+        <Text style={style.footerText}>Tüm Hakları Saklıdır.</Text>
 
       </View>
 

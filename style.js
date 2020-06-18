@@ -120,13 +120,24 @@ const style = StyleSheet.create({
 
   //footer
 
-  divider: {
+  footer: {
+    width: 100 + '%',
+
+
+  },
+
+  footerDivider: {
     borderBottomColor: 'white',
     borderBottomWidth: 1,
     marginLeft: 20,
     marginRight: 20,
     opacity: 1,
   },
+
+  footerText: {
+    color: 'white',
+
+  }
 
 })
 
