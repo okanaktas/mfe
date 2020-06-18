@@ -7,7 +7,7 @@ const style = require('./style.js');
 function app() {
 
   return (
-    <View style={style.main}>
+    <View>
 
 
       {/* //header */}
@@ -35,19 +35,17 @@ function app() {
         </View>
       </View>
 
-      {/* Bottom Header
+      {/* Bottom Header */}
 
       <View style={style.bottomHeader}>
 
-        <Text style={style.bottomHeaderText}>Kültür ve Sanat</Text>
-        <Text style={style.bottomHeaderText}>Film ve Müzik</Text>
-        <Text style={style.bottomHeaderText}>Tiyatro</Text>
-        <Text style={style.bottomHeaderText}>Seyahat</Text>
-        <Text style={style.bottomHeaderText}>Güncel</Text>
+<Text style={style.bottomHeaderText}>Kültür ve Sanat</Text>
+<Text style={style.bottomHeaderText}>Film ve Müzik</Text>
+<Text style={style.bottomHeaderText}>Tiyatro</Text>
+<Text style={style.bottomHeaderText}>Seyahat</Text>
+<Text style={style.bottomHeaderText}>Güncel</Text>
 
       </View>
-
-       */}
 
       {/* //index */}
 
@@ -58,7 +56,7 @@ function app() {
           <View style={{ marginLeft: 20, flexDirection: 'row' }}>
             <Text onPress={() => this.props.props2.navigation.navigate('Etkinlik')} style={{ color: '#EBEBEB', marginRight: 5, textAlign: 'center', alignItems: 'center', fontSize: 12 }}>YAKLAŞAN{"\n"}ETKINLIKLER</Text>
             <TextTicker
-              style={{ color: '#EBEBEB', marginTop: 0, marginBottom: 10 }}
+              style={{ color: '#EBEBEB', marginTop: 10, marginBottom: 10 }}
               scrollSpeed={100}
               bounce={false}
               animationType='scroll'
@@ -140,11 +138,15 @@ function app() {
       </ScrollView>
 
 
-      {/* //footer */}
 
-      <Divider style={style.divider} />
 
-      <View style={style.footer}>
+      <View>
+
+        {/* //footer */}
+
+        <View style={style.footer}></View>
+
+        <Divider style={style.footerDivider} />
 
         <Text style={style.footerText}>Tüm Hakları Saklıdır.</Text>
 

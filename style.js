@@ -5,13 +5,6 @@ import Constants from 'expo-constants';
 
 const style = StyleSheet.create({
 
-
-  //main
-  main: {
-    flex: 1,
-    backgroundColor: 'black',
-  },
-
   //header
 
   header: {
@@ -48,7 +41,7 @@ const style = StyleSheet.create({
 
   },
 
-  /* bottomHeader
+  //bottomHeader
 
   bottomHeader: {
     width: 100 + '%',
@@ -66,7 +59,6 @@ const style = StyleSheet.create({
     color: 'white',
     marginLeft: 5,
   },
-*/
 
   //index
 
@@ -79,7 +71,7 @@ const style = StyleSheet.create({
     width: 100 + '%',
 
 
-    //height: Dimensions.get('window').height - Constants.statusBarHeight - 120,
+    height: Dimensions.get('window').height - Constants.statusBarHeight,
 
 
   },
@@ -128,28 +120,24 @@ const style = StyleSheet.create({
 
   //footer
 
-  divider: {
-    borderBottomColor: 'whitesmoke',
-    borderBottomWidth: 1,
-    marginLeft: 30,
-    marginRight: 30,
-    opacity: 0.1,
-    bottom:31,
-  },
-
   footer: {
     width: 100 + '%',
-    position: 'absolute',
-    bottom: 0,
-    height: 30,
-    justifyContent: 'center',
+
+
+  },
+
+  footerDivider: {
+    borderBottomColor: 'white',
+    borderBottomWidth: 1,
+    marginLeft: 20,
+    marginRight: 20,
+    opacity: 1,
   },
 
   footerText: {
-    color: 'whitesmoke',
-    textAlign: 'center',
-    opacity: 0.5,
-  },
+    color: 'white',
+
+  }
 
 })
 
