@@ -96,7 +96,29 @@ marginRight:5,
     alignItems: 'center',
     height: 100,
     borderRadius:10,borderWidth:2,borderColor:'#0e0e0e',
-  }
+  },
+  Hikayeler:{
+    height:80,
+    justifyContent:'center',
+  },
+  Hikaye:{
+    height:80 + '%',
+    width:80,
+    backgroundColor:'red',
+    justifyContent:'center',
+    alignItems:'center',
+    
+  },
+  HikayeSubText:{
+    color:'#FFF',
+    fontSize:12,
+    marginTop:6,
+  },
+  hikeyeThumbResim:{
+    height:60,
+    width:60,
+    borderRadius:50/2,
+  },
 
 })
 
