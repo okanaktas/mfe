@@ -149,6 +149,38 @@ const style = StyleSheet.create({
     color: 'whitesmoke',
     textAlign: 'center',
     opacity: 0.5,
+    borderRadius:10,borderWidth:2,borderColor:'#0e0e0e',
+  },
+  Hikayeler:{
+    height:90,
+    justifyContent:'center',
+    width:100 + '%',
+    alignSelf:'center',
+    marginLeft:10,
+  },
+  Hikaye:{
+    height:100 + '%',
+    width:70,
+    marginTop:2,
+    justifyContent:'center',
+    alignItems:'center',
+    
+  },
+  HikayeSubText:{
+    color:'#FFF',
+    fontSize:12,
+    marginTop:6,
+  },
+  hikeyeThumbResim:{
+    height:55,
+    width:55,
+    borderRadius:55/2,
+    borderWidth:2,
+    borderColor:'red',
+  },
+  HikayeModal:{
+
+    backgroundColor:'#000',
   },
 
 })

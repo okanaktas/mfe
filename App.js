@@ -1,7 +1,8 @@
 import React from 'react';
-import { Text, Button, View, StyleSheet, Image, ScrollView, TouchableOpacity, FlatList } from 'react-native';
-import { Icon, Divider } from 'react-native-elements';
+import { Text, View, StyleSheet, Image, ScrollView, TouchableOpacity, FlatList } from 'react-native';
+import { Icon } from 'react-native-elements';
 import TextTicker from 'react-native-text-ticker';
+import Stories from './assets/stories';
 const style = require('./style.js');
 
 function app() {
@@ -52,6 +53,11 @@ function app() {
       {/* //index */}
 
       <ScrollView style={style.index}>
+
+        {/* Hikayeler */}
+        <Stories/>
+
+
 
         <View style={{ paddingTop: 10, paddingBottom: 5 }}>
           <View style={{ borderBottomColor: 'gray', borderBottomWidth: 1, marginLeft: 20, marginRight: 20, opacity: 0.3 }}></View>
