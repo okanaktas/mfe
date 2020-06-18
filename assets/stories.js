@@ -86,6 +86,7 @@ class stories extends React.Component {
                 <Modal onRequestClose={()=>{this.HikayeKapat()}} animated animationType='slide' hardwareAccelerated={true} statusBarTranslucent={true} visible={this.state.modalOpen} style={style.HikayeModal}>
 
                 <Image  source={{ uri: 'https://www.kibrisotelleri.com/photos/salamis-bay-conti-hotel-7.jpg' }} />
+                <View></View>
 
                 </Modal>
             </View>
