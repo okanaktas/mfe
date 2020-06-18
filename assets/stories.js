@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, View, StyleSheet, Image, ScrollView, TouchableOpacity, FlatList, Modal, AppState } from 'react-native';
 import { Icon } from 'react-native-elements';
-import TextTicker from 'react-native-text-ticker'
+import TextTicker from 'react-native-text-ticker';
 const style = require('../style.js');
 
 class stories extends React.Component {
