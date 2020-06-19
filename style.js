@@ -134,7 +134,7 @@ const style = StyleSheet.create({
     marginLeft: 30,
     marginRight: 30,
     opacity: 0.1,
-    bottom:31,
+    bottom: 31,
   },
 
   footer: {
@@ -149,39 +149,60 @@ const style = StyleSheet.create({
     color: 'whitesmoke',
     textAlign: 'center',
     opacity: 0.5,
-    borderRadius:10,borderWidth:2,borderColor:'#0e0e0e',
+    borderRadius: 10, borderWidth: 2, borderColor: '#0e0e0e',
   },
-  Hikayeler:{
-    height:90,
-    justifyContent:'center',
-    width:100 + '%',
-    alignSelf:'center',
-    marginLeft:10,
+  Hikayeler: {
+    height: 90,
+    justifyContent: 'center',
+    width: 100 + '%',
+    alignSelf: 'center',
+    marginLeft: 10,
   },
-  Hikaye:{
-    height:100 + '%',
-    width:70,
-    marginTop:2,
-    justifyContent:'center',
-    alignItems:'center',
-    
-  },
-  HikayeSubText:{
-    color:'#FFF',
-    fontSize:12,
-    marginTop:6,
-  },
-  hikeyeThumbResim:{
-    height:55,
-    width:55,
-    borderRadius:55/2,
-    borderWidth:2,
-    borderColor:'red',
-  },
-  HikayeModal:{
+  Hikaye: {
+    height: 100 + '%',
+    width: 70,
+    marginTop: 2,
+    justifyContent: 'center',
+    alignItems: 'center',
 
-    backgroundColor:'#000',
   },
+  HikayeSubText: {
+    color: '#FFF',
+    fontSize: 12,
+    marginTop: 6,
+  },
+  hikeyeThumbResim: {
+    height: 55,
+    width: 55,
+    borderRadius: 55 / 2,
+    borderWidth: 2,
+    borderColor: 'red',
+  },
+  ModalContainer: {
+
+    backgroundColor:'red',
+    width:100 +'%',
+    height:Dimensions.get('screen').height - 200,
+    position:'absolute',
+    top:0,
+    left:0,
+    zIndex:99999,
+
+
+  },
+  HikayeModal: {
+    flex: 1,
+    backgroundColor: '#000',
+  },
+  HikayeModalImage:
+  {
+    flex: 1,
+  },
+  ModalTop:{
+    width:100 +'%',
+    backgroundColor:'red',
+    height:50
+  }
 
 })
 
