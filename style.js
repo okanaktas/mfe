@@ -180,13 +180,13 @@ const style = StyleSheet.create({
   },
   ModalContainer: {
 
-    backgroundColor:'red',
-    width:100 +'%',
-    height:Dimensions.get('screen').height - 200,
-    position:'absolute',
-    top:0,
-    left:0,
-    zIndex:99999,
+    backgroundColor: 'red',
+    width: 100 + '%',
+    height: Dimensions.get('screen').height - 200,
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    zIndex: 99999,
 
 
   },
@@ -198,10 +198,35 @@ const style = StyleSheet.create({
   {
     flex: 1,
   },
-  ModalTop:{
-    width:100 +'%',
-    backgroundColor:'red',
-    height:50
+  ModalTop: {
+    width: 100 + '%',
+    height: 70,
+    flexDirection: 'row',
+    alignContent: 'center',
+    alignItems: 'center',
+    paddingLeft: 20,
+  },
+  hikayePPImage:
+  {
+    width: 35,
+    height: 35,
+    borderRadius: 35 / 2,
+  },
+  HikayePPText: {
+    marginLeft: 16,
+    color: '#FFF',
+    fontSize: 15
+  },
+  ModalCloseButton:
+  {
+    color: '#FFF',
+    alignSelf:'flex-end',
+
+  },
+  ModalCloseButtonContainer: {
+    position: 'absolute',
+    right: 20,
+    zIndex: 999999999,
   }
 
 })

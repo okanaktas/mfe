@@ -1,8 +1,8 @@
 import React from 'react';
 import { Text, View, StyleSheet, Image, ScrollView, Animated, TouchableOpacity, FlatList, AppState, ImageBackground, Modal, Dimensions } from 'react-native';
+import Ionicon from 'react-native-ionicons'
 import { Icon } from 'react-native-elements';
 import TextTicker from 'react-native-text-ticker';
-import Modal2 from 'react-native-modal';
 const style = require('../style.js');
 
 class stories extends React.Component {
@@ -109,6 +109,10 @@ class stories extends React.Component {
                         <ImageBackground imageStyle={{ resizeMode: 'cover' }} source={{ uri: 'https://www.kibrisotelleri.com/photos/salamis-bay-conti-hotel-7.jpg' }} style={style.HikayeModalImage}>
 
                         <View style={style.ModalTop}>
+
+                            <Image source={{ uri: 'https://www.kibrisotelleri.com/photos/salamis-bay-conti-hotel-7.jpg' }} style={style.hikayePPImage} />
+                            <Text style={style.HikayePPText}>Salamis Hotel</Text>
+                            <TouchableOpacity style={style.ModalCloseButtonContainer} onPress={()=>{this.HikayeKapat()}}><Icon name='close' color='#FFF' style={style.ModalCloseButton} size={25}/></TouchableOpacity>
 
                         </View>
 
