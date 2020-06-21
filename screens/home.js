@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, View, StyleSheet, Image, ScrollView, TouchableOpacity,FlatList } from 'react-native';
+import { Text, View, StyleSheet, Image, ScrollView, TouchableOpacity, FlatList } from 'react-native';
 import { Icon,Divider } from 'react-native-elements';
 import TextTicker from 'react-native-text-ticker';
 import Stories from './assets/stories';
@@ -153,7 +153,7 @@ function app() {
 
       <View style={style.footer}>
 
-        <Text style={style.footerText}>Tüm Hakları Saklıdır.</Text>
+        <Text style={style.footerText}>Tüm asd Saklıdır.</Text>
 
       </View>
 
