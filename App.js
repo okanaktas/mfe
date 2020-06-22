@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{Component} from 'react';
 import { Text, View, StyleSheet, Image, ScrollView, TouchableOpacity,FlatList } from 'react-native';
 import { Icon,Divider } from 'react-native-elements';
 import TextTicker from 'react-native-text-ticker';
@@ -21,7 +21,7 @@ function app() {
 
         <View style={style.middleHeader}>
           <Text style={style.middleHeaderText}>Ana Sayfa</Text>
-          <Text style={style.middleHeaderText}>Etkinlikler</Text>
+          <Text style={style.middleHeaderText} onPress={() => navigation.navigate('home')}>Etkinlikler</Text>
           <Text style={style.middleHeaderText}>Hakkımızda</Text>
         </View>
 
